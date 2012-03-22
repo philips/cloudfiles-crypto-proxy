@@ -12,3 +12,9 @@ Startup the proxy on port 3000 using an example key
 Upload a file using `node-cloudfiles` proxied through http://localhost:3000
 
     cloudfiles-upload-test.js -f README.md -u <user> -k <apikey> -p 'http://127.0.0.1:3000'
+
+# Video
+
+Funny video of the first demo of this proxy:
+
+http://www.youtube.com/watch?v=UE1Wg-BoWoM
