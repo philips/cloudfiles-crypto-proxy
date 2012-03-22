@@ -34,8 +34,6 @@ http.createServer(function (req, resp) {
   headers['content-type'] = 'application/octet-stream';
 
   if (req.method === 'PUT' && object !== undefined) {
-    console.log('headers: ' + headers['content-length']);
-
     var x = request(req.url, {headers: headers, method: 'PUT'});
     var e = new cryptostream.EncryptStream(key);
 
